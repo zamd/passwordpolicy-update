@@ -12,7 +12,7 @@ function process(tenant){
     return co(function*() { 
         try {
             var token = yield getApiToken(tenant.domain, tenant.client_id, tenant.client_secret);
-            var newPolicy = yield udpatePasswordPolicy(tenant.domain, tenant.connection_name, token,"good");
+            var newPolicy = yield udpatePasswordPolicy(tenant.domain, tenant.connection_name, token, tenant.password_policy);
             winston.info(`password policy for "${tenant.connection_name}" updated successfully...`);
 
             return newPolicy;
