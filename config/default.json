@@ -1,0 +1,10 @@
+{
+    "tenants" : [
+        {
+            "domain": "zulfiqar.auth0.com",
+            "client_id": "6bYyI6Yo7jx3UE72xQJAPRtQc6JgApo2",
+            "client_secret": "by4vIv9Wf1aRFAPQ2Mh0T7HSM5n5xiCWNi2_JsJTnC_ygihVc1eh5NTmgTvODtzg",
+            "connection_name":"apidb"
+        } 
+    ]
+}
